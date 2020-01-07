@@ -1,5 +1,10 @@
 const isEven = (num) => {
   // write code for numbers.isEven
+  if (num %2 ===0 ){
+    return true
+  }else{
+    return false
+  }
 
 }
 
