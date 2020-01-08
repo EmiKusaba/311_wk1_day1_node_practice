@@ -10,12 +10,17 @@ const isEven = (num) => {
 
 const sum = (arr) => {
   // write code for numbers.sum
-
+  // var sum = 0;
+  // for( i=0; i<arr.length, i++ ;){
+  //  sum += arr[i];
+  // }
+  // console.log(arr);
+  return arr.reduce((a,b) => a + b, 0);
 }
 
 const comboSum = (arr, sum) => {
   // write code for numbers.comboSum
-
+  return arr.reduce((a, b) => a + b === sum);
 }
 
 module.exports = {
